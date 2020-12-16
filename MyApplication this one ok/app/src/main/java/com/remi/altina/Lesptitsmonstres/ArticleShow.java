@@ -1023,7 +1023,7 @@ public class ArticleShow   extends YouTubeBaseActivity {
 
     public void settheadapter(String[] categoriesarray) {
         Spinner dynamicSpinner = (Spinner) findViewById(R.id.spinner);
-        categoriesarray[0]="Article Categories";
+        categoriesarray[0]="Catégories";
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,categoriesarray);
         adapter.setDropDownViewResource(R.layout.text);
         dynamicSpinner.setAdapter(adapter);
