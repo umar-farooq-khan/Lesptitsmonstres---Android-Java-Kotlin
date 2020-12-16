@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_fontsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/fontsize"
+        android:layout_marginTop="@dimen/padding10dp"
+        android:layout_marginBottom="@dimen/padding10dp"
+        android:textSize="23sp" />
+    <SeekBar
+        android:id="@+id/seekbarfontsize"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:max="28"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp">
+
+    </SeekBar>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rv_inner"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/seekbarfontsize"
+        android:layout_height="wrap_content">
+
+
+
+
+        <TextView
+            android:id="@+id/tvsampletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:maxLines="4"
+            android:padding="20dp"
+            android:breakStrategy="simple"
+            android:text="@string/sampletext"
+           >
+
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_changespeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rv_inner"
+        android:text="@string/changespeed"
+        android:textSize="23sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_ttsprogress"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_changespeed"
+        >
+
+    </TextView>
+    <SeekBar
+        android:id="@+id/seekbar_tts_speed"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tv_changespeed"
+        android:layout_marginRight="25dp"
+        android:progress="50"
+        android:max="100">
+
+    </SeekBar>
+
+    <ImageView
+        android:id="@+id/play_btn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/seekbar_tts_speed"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/playy"/>
+
+
+
+</RelativeLayout>
+
+<com.google.android.material.navigation.NavigationView
+android:id="@+id/nv"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:layout_gravity="start"
+app:headerLayout="@layout/nav_header"
+app:menu="@menu/nav_menu">
+
+</com.google.android.material.navigation.NavigationView>
+    </androidx.drawerlayout.widget.DrawerLayout>
+

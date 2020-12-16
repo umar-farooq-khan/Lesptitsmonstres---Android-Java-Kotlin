@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent" android:layout_height="200dp" xmlns:android="">
+<WebView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id="@+id/webview"></WebView>
+</android.support.v7.widget.CardView>

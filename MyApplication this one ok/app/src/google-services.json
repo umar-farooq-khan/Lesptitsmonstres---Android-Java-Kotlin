@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "677592722889",
+    "firebase_url": "https://lesptitsmonstres.firebaseio.com",
+    "project_id": "lesptitsmonstres",
+    "storage_bucket": "lesptitsmonstres.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677592722889:android:83972a94e9ba136a2d0c18",
+        "android_client_info": {
+          "package_name": "com.remi.altina.Lesptitsmonstres"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677592722889-6nc71dfklblkltj8ocg7tpjd22eksi8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.remi.altina.Lesptitsmonstres",
+            "certificate_hash": "95ce109ecd1b335dfece9f6e3e99328b9dfb5615"
+          }
+        },
+        {
+          "client_id": "677592722889-8ap8q1vkptm5nh4bluucknp84t8h2bhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6F6FlkeREmzI-l5YSMFrKQzLxFMCh_tM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677592722889-8ap8q1vkptm5nh4bluucknp84t8h2bhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Les Ptits Monstres</string>
+    <string name="articleheading">Le Journal des Ptits Monstres</string>
+    <string name="articleheading2">Le Journal des Ptits Monstres c\est quoi?</string>
+    <string name="donate">Faire un don</string>
+    <string name="Activities">Les Ptites Activités</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="Recipes">Les Ptites Recettes</string>
+    <string name="Youtube">Youtube</string>
+    <string name="ParentArticles">Astuces Parents</string>
+    <string name="Proposal">A propos</string>
+    <string name="Contact">Contact</string>
+    <string name="participate">Participe</string>
+    <string name="Quizzes">Les Ptits Quiz</string>
+    <string name="Exercises">Les Ptits Exercices</string>
+    <string name="Articles">Les Ptites Actus</string>
+    <string name="Home">Accueil</string>
+    <string name="play">Play</string>
+    <string name="postarticle">Post an Article</string>
+    <string name="post">Envoie</string>
+    <string name="postyourarticle">Post your Article here</string>
+    <string name="posthere">Poste ton article ici..............</string>
+    <string name="lirecolor">LireCouleur</string>
+    <string name="opendysmode">Mode OpenDys</string>
+
+    <string name="fontsize">Taille du texte</string>
+    <string name="changespeed">Vitesse de lecture</string>
+
+    <string name="Settings">Réglages</string>
+    <string name="sampletext">Veuillez choisir la taille adaptée à vos besoins pour lire les articles</string>
+    <string name="samplespeech">Veuillez choisir la vitesse de lecture adaptée à vos besoins. Vous pouvez modifier la vitesse de lecture en faisant glisser le curseur</string>
+
+    <string name="errorloadingtts">There was some error loading the text to speech data.Try any other article.</string>
+    <string name="participatetext">Tu peux participer et proposer des articles.
+        \n Tu deviendras alors un vrai journaliste-reporter!
+
+</string>
+</resources>

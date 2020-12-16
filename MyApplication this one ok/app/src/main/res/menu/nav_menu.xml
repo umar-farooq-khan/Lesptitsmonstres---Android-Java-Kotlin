@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <group>
+        <item android:id="@+id/Home"   android:icon="@drawable/home"   android:title="@string/Home"/>
+        <item android:id="@+id/Article" android:icon="@drawable/articles" android:title="@string/Articles"/>
+        <item android:id="@+id/Exercises" android:icon="@drawable/exercise" android:title="@string/Exercises"/>
+         <item android:id="@+id/Activities" android:icon="@drawable/exercise" android:title="@string/Activities"/>
+
+         <item android:id="@+id/Quizzes" android:icon="@drawable/quizz" android:title="@string/Quizzes"/>
+        <item android:id="@+id/Recipes" android:icon="@drawable/recipes" android:title="@string/Recipes"/>
+     </group>
+<group>
+    <item android:id="@+id/ParentArticles" android:icon="@drawable/articles" android:title="@string/ParentArticles"/>
+
+</group>
+    <item android:id="@+id/participate" android:icon="@drawable/participatesmall" android:title="@string/participate"/>
+    <item android:id="@+id/youtube" android:icon="@drawable/youtube" android:title="@string/Youtube"/>
+<!--
+    <item android:id="@+id/Proposal" android:icon="@drawable/proposal" android:title="@string/Proposal"/>
+-->
+    <group>
+<!--
+    <item android:id="@+id/Donate" android:icon="@drawable/donation" android:title="@string/Donate"/>
+-->
+    <item android:id="@+id/Contact"   android:icon="@drawable/contact" android:title="@string/Contact"/>
+        <item android:id="@+id/Settings"   android:icon="@drawable/parents" android:title="@string/Settings"/>
+    </group>
+
+    </menu>
+

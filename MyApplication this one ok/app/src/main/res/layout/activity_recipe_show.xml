@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context="com.remi.altina.Lesptitsmonstres.ArticleShow">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            tools:context="com.remi.altina.Lesptitsmonstres.ArticleShow">
+
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/articleshow_iv_bannner"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:scaleType="fitCenter"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                 />
+
+            <TextView
+                android:id="@+id/quizzesshow_tv_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/articleshow_iv_bannner"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding15"
+                android:paddingRight="@dimen/padding15"
+                android:textColor="@color/black"
+                android:textSize="@dimen/forheadingshow40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/quizzesshow_tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/quizzesshow_tv_heading"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding15"
+                android:paddingRight="@dimen/padding15"
+                android:textColor="@color/bluelink"
+                android:textSize="@dimen/fordate16sp" />
+
+            <View
+                android:id="@+id/grayline"
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/quizzesshow_tv_date"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margintop16dp"
+                android:background="@android:color/darker_gray" />
+
+
+            <Switch
+                android:id="@+id/switchreadcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+                android:layout_below="@+id/grayline"
+                android:layout_marginStart="17dp"
+                android:scaleX="1.2"
+                android:scaleY="1.2"
+                tools:layout_editor_absoluteX="333dp"
+                tools:layout_editor_absoluteY="380dp" />
+
+
+
+            <Switch
+                android:id="@+id/switchfonts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="1.2"
+                android:scaleY="1.2"
+                android:layout_marginTop="10dp"
+                android:layout_alignBaseline="@+id/switchreadcolor"
+                android:layout_alignBottom="@+id/switchreadcolor"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_below="@+id/switchfonts"
+                android:layout_marginEnd="@dimen/padding7dp"
+                android:textSize="@dimen/fortextsizes14"
+                android:layout_alignParentEnd="true"
+                android:text="@string/opendysmode" />
+
+
+            <TextView
+                android:id="@+id/lirecolortext"
+                android:gravity="center"
+                android:layout_below="@+id/switchreadcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/padding7dp"
+                android:textSize="@dimen/fortextsizes14"
+                android:text="@string/lirecolor" />
+
+            <ImageView
+                android:id="@+id/fab"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/grayline"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="play"
+                android:src="@drawable/playy"/>
+
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/datatext"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/textView3"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:lineSpacingExtra="4dp"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:paddingRight="10dp"-->
+<!--                android:linksClickable="true"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="@dimen/txtsizearticles" />-->
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="230dp"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:src="@drawable/quizbanner"-->
+<!--                android:id="@+id/imginarticle"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:layout_below="@+id/datatext">-->
+
+<!--            </ImageView>-->
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvforrecipes"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/fab">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:drawableLeft="@drawable/pdf3"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rvforrecipes"
+                android:layout_marginLeft="15dp"
+                android:clickable="true"
+                android:textSize="@dimen/txtsizearticles"
+                android:visibility="visible"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/tvlinks">
+
+            </TextView>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+     <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu">
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

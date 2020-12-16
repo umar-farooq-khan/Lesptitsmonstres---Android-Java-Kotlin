@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/iv_custom_articles"
+        android:adjustViewBounds="true"
+        android:layout_width="260dp"
+        android:src="@drawable/banner"
+        android:foregroundGravity="center"
+        android:layout_height="146dp"
+        />
+    <!--
+        android:layout_height="@dimen/image_sizeheight_customlistview"
+                android:layout_width="@dimen/image_size_customlistview"
+
+    -->
+
+
+    <TextView
+        android:id="@+id/tv_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/black"
+        android:maxLines="2"
+        android:text="ghdhdhhdhd sgs gsrtg srgysr srtysdrtysrts rtsdrt rytr srtydrsr srtyrtr rtrtrt eyye rtydr"
+        android:layout_toEndOf="@+id/iv_custom_articles"
+        android:textStyle="bold"
+        android:textSize="@dimen/txtsizeheading_customarticles" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_heading"
+        android:layout_alignStart="@+id/tv_heading"
+        android:maxLines="3"
+        android:text="drgdrgsgr"
+        android:textColor="@color/black"
+        android:textSize="@dimen/txtsize_customarticles"/>
+
+</RelativeLayout>

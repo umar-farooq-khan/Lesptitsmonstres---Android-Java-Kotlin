@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="image_size_customlistview">160dp</dimen>
+    <dimen name="image_sizeheight_customlistview">110dp</dimen>
+    <dimen name="txtsize_customarticles">14sp</dimen>
+    <dimen name="txtsizeheading_customarticles">20sp</dimen>
+    <dimen name="marginleftlayout">20dp</dimen>
+    <dimen name="articleshowwidth">300dp</dimen>
+    <dimen name="contactacttextsize">30sp</dimen>
+    <dimen name="sizeparticipate">37dp</dimen>
+    <dimen name="design_navigation_icon_size" tools:override="true">30dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">17dp</dimen>
+    <dimen name="sizeproposal">18dp</dimen>
+    <dimen name="proppadding">20px</dimen>
+    <dimen name="txtsizearticles">22sp</dimen>
+    <dimen name="bannerheight">200dp</dimen>
+    <dimen name="padding15">14dp</dimen>
+    <dimen name="margintop16dp">16dp</dimen>
+    <dimen name="marginleft5dp">5dp</dimen>
+    <dimen name="padding10dp">10dp</dimen>
+    <dimen name="padding7dp">3dp</dimen>
+    <dimen name="bannerheadingtxtsize">35sp</dimen>
+    <dimen name="thirty">30dp</dimen>
+    <dimen name="fortextsizes14">14sp</dimen>
+    <dimen name="fordate16sp">16sp</dimen>
+    <dimen name="forheadingshow40sp">40sp</dimen>
+    <dimen name="buttontext">16sp</dimen>
+    <dimen name="padding16">16dp</dimen>
+</resources>
