@@ -13,7 +13,7 @@ android {
         applicationId "com.farooq.umar.myapplication"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 32
+        versionCode 33
         versionName "1.0.5"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
