@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.remi.altina.Lesptitsmonstres">
-
+    package="com.whatsup.hey">
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="true"
@@ -12,12 +16,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".LinkShow" />
-        <activity android:name=".YoutubeShow" />
-        <activity android:name=".ActivitiesShow" />
-        <activity android:name=".Activities" />
+
+        <activity android:name="com.whatsup.hey.LinkShow" />
+        <activity android:name="com.whatsup.hey.YoutubeShow" />
+        <activity android:name="com.whatsup.hey.ActivitiesShow" />
+        <activity android:name="com.whatsup.hey.Activities" />
         <activity
-            android:name=".Splash"
+            android:name="com.whatsup.hey.Splash"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,52 +31,52 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.whatsup.hey.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Settings"
+            android:name="com.whatsup.hey.Settings"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ExercisesActivity"
+            android:name="com.whatsup.hey.ExercisesActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Youtube"
+            android:name="com.whatsup.hey.Youtube"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ArticlesActivity"
+            android:name="com.whatsup.hey.ArticlesActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Quizzes"
+            android:name="com.whatsup.hey.Quizzes"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Participate"
+            android:name="com.whatsup.hey.Participate"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Recipes"
+            android:name="com.whatsup.hey.Recipes"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ParentArticles"
+            android:name="com.whatsup.hey.ParentArticles"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Contact"
+            android:name="com.whatsup.hey.Contact"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ArticleShow"
+            android:name="com.whatsup.hey.ArticleShow"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ExercisesShow"
+            android:name="com.whatsup.hey.ExercisesShow"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".RecipeShow"
+            android:name="com.whatsup.hey.RecipeShow"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PostArticle"
+            android:name="com.whatsup.hey.PostArticle"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".QuizzesShow"
+            android:name="com.whatsup.hey.QuizzesShow"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ParentArticleShow"
+            android:name="com.whatsup.hey.ParentArticleShow"
             android:screenOrientation="portrait" />
     </application>
     <uses-permission android:name="android.permission.VIBRATE" />

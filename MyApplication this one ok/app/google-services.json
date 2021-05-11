@@ -1,42 +1,33 @@
 {
   "project_info": {
-    "project_number": "677592722889",
-    "firebase_url": "https://lesptitsmonstres.firebaseio.com",
-    "project_id": "lesptitsmonstres",
-    "storage_bucket": "lesptitsmonstres.appspot.com"
+    "project_number": "1087926447665",
+    "project_id": "myapp-69ee5",
+    "storage_bucket": "myapp-69ee5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:677592722889:android:2f8bb806bd87114d2d0c18",
+        "mobilesdk_app_id": "1:1087926447665:android:5fb89b661368fb7a0e2f10",
         "android_client_info": {
-          "package_name": "com.example.umar.myapplication"
+          "package_name": "com.farooq.umar.myapplication"
         }
       },
       "oauth_client": [
         {
-          "client_id": "677592722889-6nc71dfklblkltj8ocg7tpjd22eksi8f.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.umar.myapplication",
-            "certificate_hash": "95ce109ecd1b335dfece9f6e3e99328b9dfb5615"
-          }
-        },
-        {
-          "client_id": "677592722889-8ap8q1vkptm5nh4bluucknp84t8h2bhk.apps.googleusercontent.com",
+          "client_id": "1087926447665-vnduujjgb7gnlgdg2vh9lf68omf6uhh9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB6F6FlkeREmzI-l5YSMFrKQzLxFMCh_tM"
+          "current_key": "AIzaSyCcTgmsI0YNAUjuo0QSWu2yb6HJyGl4bDI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "677592722889-8ap8q1vkptm5nh4bluucknp84t8h2bhk.apps.googleusercontent.com",
+              "client_id": "1087926447665-vnduujjgb7gnlgdg2vh9lf68omf6uhh9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -45,35 +36,27 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:677592722889:android:0edda3a4f58917b22d0c18",
+        "mobilesdk_app_id": "1:1087926447665:android:e88a5e74a5bf7dd60e2f10",
         "android_client_info": {
-          "package_name": "com.farooq.umar.myapplication"
+          "package_name": "com.whatsup.hey"
         }
       },
       "oauth_client": [
         {
-          "client_id": "677592722889-klvmb5p9c80husu0f1f414n84ava5iii.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.farooq.umar.myapplication",
-            "certificate_hash": "95ce109ecd1b335dfece9f6e3e99328b9dfb5615"
-          }
-        },
-        {
-          "client_id": "677592722889-8ap8q1vkptm5nh4bluucknp84t8h2bhk.apps.googleusercontent.com",
+          "client_id": "1087926447665-vnduujjgb7gnlgdg2vh9lf68omf6uhh9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB6F6FlkeREmzI-l5YSMFrKQzLxFMCh_tM"
+          "current_key": "AIzaSyCcTgmsI0YNAUjuo0QSWu2yb6HJyGl4bDI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "677592722889-8ap8q1vkptm5nh4bluucknp84t8h2bhk.apps.googleusercontent.com",
+              "client_id": "1087926447665-vnduujjgb7gnlgdg2vh9lf68omf6uhh9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
